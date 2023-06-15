@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
-.container{
+
+.container {
     background-color: rgb(0, 0, 0);
     text-align: center;
     justify-content: center;
@@ -13,18 +14,19 @@
 }
 
 
-.box{
+.box {
     height: 100vh;
-    width: auto ;
+    width: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-.textArea{
+
+.textArea {
     height: 150px;
-   text-align:right;
+    text-align: right;
     resize: none;
     color: white;
     padding: 10px;
@@ -33,28 +35,29 @@
     width: 300px;
     border-radius: 10px;
     /* border-color: white; */
-    border:none ;
-    
+    border: none;
+
 }
-.num{
+
+.num {
     margin-top: 10px;
     width: 320px;
 }
 
-.btn{
-    margin-top: 5px;
-    margin-right: auto;
+.btn {
+    margin-top: 8px;
+    margin-right: 5px;
     padding: 10px;
     font-size: 2rem;
     width: 70px;
     background-color: rgb(44, 44, 44);
     color: white;
- border: 2px ;
+    border: 2px;
     border-radius: 15px;
     /* cursor: pointer; */
 }
 
-.overlay{
+.overlay {
     padding: 10px;
     border-radius: 15px;
     background-color: rgb(0, 0, 0);
@@ -62,20 +65,25 @@
 
 
 }
-.equal{
+
+.equal {
     color: black;
     background-color: greenyellow;
 }
-.ac{
+
+.ac {
     color: black;
     background-color: orange;
 }
-.hove{
+
+.hove {
     background-color: rgb(15, 15, 15);
 }
-.fa-solid{
+
+.fa-solid {
     font-size: 1.8rem;
 }
+
 /* .btn:hover{
     background-color: rgb(24, 24, 24);
 } */

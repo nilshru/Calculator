@@ -32,11 +32,13 @@ function toggleSign() {
 function calculatePercentage() {
     var expression = result.value;
     var answer = eval(expression) / 100;
-    if(answer < 1){
-        result.value = answer * 10000+"%"; //two extra zero for removing  /100
+    console.log(expression);
+    console.log(answer);
+    if (answer < 1) {
+        result.value = answer * 10000 + "%"; //two extra zero for removing  /100
     }
-    else{
-        result.value = answer +"%"
+    else {
+        result.value = answer + "%"
     }
 }
 
